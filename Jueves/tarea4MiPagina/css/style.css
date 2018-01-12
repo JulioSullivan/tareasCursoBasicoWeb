@@ -1,0 +1,97 @@
+*{
+	font-family: lucida sans unicode;
+}
+
+body{
+	margin: 0;
+}
+
+.titulos-principales{
+	background-color: #24219A;
+	text-align: center;
+	padding: 1%;
+}
+
+.titulos-principales h1{
+	color: white;
+}
+
+.menu-navegacion{
+	text-align: center;
+
+}
+
+.menu-navegacion li{
+	display: inline;
+
+}
+
+.menu-navegacion a{
+	margin: 4%;
+	background-color: #28E8AB;
+	color: black;
+	padding: 1.5%;
+	display: inline-block;
+	text-decoration: none;
+	width: 90px;
+	height: 20px;
+	border: 5px solid #130E72;
+}
+
+.menu-navegacion li:hover a{
+	background-color: #256644;	
+}
+
+li.activo a{
+	background-color: #256644;
+}
+
+.informacion-personal{
+	text-align: center;
+}
+
+ul{
+	list-style: none;
+}
+
+.footer{
+	background: #931111;
+	color: white;
+	padding: 5%;
+	text-align: center;
+}
+
+.footer li{
+	display: inline;
+	margin: 5%;
+	text-align: center;
+}
+
+.footer a{
+	background-color: pink;
+	color: green;
+	text-align: center;
+	text-decoration: none;
+	padding: 1%;
+}
+
+.escuela{
+	text-align: left;
+	padding: 4%;
+}
+
+.escuela img{
+	padding: 2%;
+}
+
+h1+h5{
+	color: #680AA9;
+}
+
+h5+h5{
+	color: #6C2506;
+}
+
+.titulos-principales h6{
+	color: #780E24;
+}
